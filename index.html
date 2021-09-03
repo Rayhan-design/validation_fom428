@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form validation</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+
+
+	<div class="one">
+		<form action="#">
+			<table>
+				<tr>
+					<td>First Name</td>
+					<td><input type="text" name="First Name" id="firstName" placeholder="Enter your First Name"></td>
+				</tr>
+				<tr>
+					<td>Last Name</td>
+					<td><input type="text" name="Last Name" id="lastName" placeholder="Enter your Last Name"></td>
+				</tr>
+				<tr>
+					<td>Email</td>
+					<td><input type="email" id="email" name="Email" placeholder="Enter your Email Address"></td>
+				</tr>
+				<tr>
+					<td>Country</td>
+					<td>
+						<select name = "select" id="selectOption" style="width:100%" name="" id="">
+							<option value="">Select</option>
+							<option value="US">US</option>
+							<option value="Bangladesh">Bangladesh</option>
+							<option value="Pakistan">Pakistan</option>
+						</select>
+
+					</td>
+				</tr>
+				<tr>
+					<td>Password</td>
+					<td><input name="Password" id="password" min="6" type="password" placeholder="Enter your Password"></td>
+				</tr>
+				<tr>
+					<td>Confirm Password</td>
+					<td><input name="Confirm Password" id="confirmPassword" type="password" placeholder="Confirm Password"></td>
+				</tr>
+				<tr>
+					<td></td>
+					<td><input style="float: right;" name="Submit" id="submit" type="submit" value="Register"></td>
+				</tr>
+			</table>
+		</form>
+		
+		<marquee style="background : #333; color : #fff;padding : 5px;margin-top : 25px; width: 100%;"><span style="color:#ff5200; font-weight:bold">Note :</span> If you enter you information here, it will not be sent to the server or email. It will only be checking.</marquee>
+	</div>
+
+
+
+
+ 
+    <script src="js/jquery-3.6.0.min.js"></script>
+    <script src="js/app.js"></script>
+</body>
+</html>
